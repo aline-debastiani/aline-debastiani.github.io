@@ -33,7 +33,7 @@
             .big6 {
                 font-size: 10px;
             }
-            .nome {
+            .cabecalho {
                 width: 18%;
                 margin-left: auto;
                 margin-right: auto;                
@@ -60,6 +60,10 @@
                 bottom: 500px;                          
             }
             .lista {
+                margin: 35px;
+                padding: 35px;
+            }
+            .meus-projetos {
                 margin: 35px;
                 padding: 35px;
             }
