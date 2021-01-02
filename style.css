@@ -7,7 +7,8 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 10px;  
-    position: fixed;   
+    position: fixed;
+    z-index: 1;
 }
 
 .logo {
