@@ -1,58 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Olá, sou Aline Debastiani</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-        <body>
-            <header>
-            <div class="cabecalho">
-                <h1>Aline Debastiani</h1>            
-            </div>
-            </header>
-            <nav id="nav">
-                <ul class="nav-links">
-                <li><a href="#apresentacao">Um pouco sobre mim</a></li>
-                <li><a href="#meus-projetos">Meus projetos</a></li>
-                <li><a href="#minhas-habilidades">Minhas habilidades</a></li>
-                </ul>
-
-            </nav>
-             <div class="foto_perfil">
-                <img src="IMG_20200912_135651_024.jpg" width="300px" alt="foto perfil">
-             </div>
-             <div class="apresentacao">
-                 <h2 id="apresentacao">Um pouco sobre mim</h2>
-                 <p>
-                    Olá, meu nome é Aline Debastiani, moro em <span class="negrito">Ubatuba/SP</span>. Sou casada
-                    e tenho um filho de 2 anos chamado Michael. Nas horas vagas gosto de
-                    ir a praia, assitir séries, filmes e de ler livros. Sou formada
-                    em Administração de empresas e atualmente estou investindo meu tempo
-                    na carreira de Desenvolvedora Full-Stack.
-                 </p>
-             </div>
-            <article class="meus-projetos">
-                <h2 id="meus-projetos">Meus projetos</h2>
-                <a href="./Projetos/lessons-learned/">Projeto Lessons Learned</a>
-            </article>
-                <div class="lista">           
-        <h2 id="minhas-habilidades">Minhas habilidades</h2>                 
-           <ul>
-               <strong><li><em class="big1">Resiliência</em></li></strong>
-               <li><em class="big2">Comunicação eficaz</em></li>
-               <li><em class="big3">Empatia</em></li>
-               <li><em class="big4">Ética no trabalho</em></li>
-               <li><em class="big5">Trabalho em equipe</em></li>
-               <li><em class="big6">Gerenciamento de tempo</em></li>
-           </ul>
-           </div>         
-       <footer>
-        <a
-            href="https://www.linkedin.com/in/aline-debastiani-262059b7/"
-            target="_blank"
-            >Me siga no Linkedin
-        </a>
-       </footer>  
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aline Debastiani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="inicio">
+    <header class="top-bar">
+        <img class="logo" id="logo" src="imgs/logo.png" alt="Aline Debastiani">
+        <div class="name-slogan">          
+          <h1 class="name">Aline Debastiani</h1>        
+          <span class="site-slogan">Portifólio |<a href="https://aline-debastiani.github.io/">Estudante de Desenvolvimento de Software</a></span>
+        </div>
+        <div class="navigation">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#portifolio">Portifólio</a>
+        </div>
+    </header>
+    <section class="about">
+        <h2 id="sobre">Sobre</h2>
+        <div class="text-about">
+            <img class="picture-about" src="imgs/IMG_20200912_135651_024.jpg" alt="Aline">
+        <p>
+            Formada em administração de empresas desde 2015, tive a oportunidade de trabalhar em uma grande multinacional na área de Sistemas de Qualidade.
+            Em 2020 com a chegada da pandemia decidi iniciar a minha transição de carreira para área de Tecnologia, me candidatei ao processo seletivo da Trybe
+            e conquistei uma vaga entre mais de 8000 inscritos. Estou muito realizada com os novos aprendizados diários, no curso temos a oportunidade de desenvolvermos
+            não só as hard skills como também as soft skills.
+        </p>
+        </div>
+        <div class="div-profile">
+        <h3 class="profile">Perfil</h3>
+        <p>Sempre curti desafios que envolvem raciocínio lógico e estou amando programação!</p>
+        <ul class="info-list">
+            <li>
+                <strong>Nome:</strong>                
+            </li>
+            <br>
+            <li>
+                <span>Aline Debastiani</span>
+            </li>
+            <br>
+            <li>
+                <strong>Nascimento:</strong>                
+            </li>
+            <br>
+            <li>
+                <span>08 de Julho de 1990</span>
+            </li>
+            <br>
+            <li>
+                <strong>Email:</strong>                
+            </li>
+            <br>
+            <li>
+                <span>debastianialine@gmail.com</span>
+            </li>
+            <br>
+        </ul>
+        </div>
+    </section>
+    <section class="projects">
+        <h2 id="portifolio">Portifólio</h2>
+        <h1>Confira aqui alguns projetos realizados</h1>
+        <div class="projects-container">
+            <a href="./Projetos/Shopping-cart/"><img src="imgs/Shopping-cart.png" alt="Shopping-cart-project"></a>
+            <a href="./Projetos/Meme-generator/"><img src="imgs/meme-generator.png" alt="Meme-generator-project"></a>
+            <a href="./Projetos/Facebook/"><img src="imgs/facebook.png" alt="Faceboook-project"></a>
+            <a href="./Projetos/To-do-list/"><img src="imgs/to-do-list.png" alt="To-do-list-project"></a>
+            <a href="./Projetos/Pixels-art/"><img src="imgs/pixels-art.png" alt="Pixels-art-project"></a>
+        </div>
+    </section>
+    <footer class="footer">        
+        <span>Todos os Direitos Reservados - Aline Debastiani.</span>
+        <div class="right-side">               
+           <a href="https://aline-debastiani.github.io/"><img src="links/github.png" alt="github"></a>                             
+           <a href="https://www.linkedin.com/in/aline-debastiani-262059b7/"><img src="links/linkedin.png" alt="linkedin"></a>         
+        </div>
+    </footer>
+</body>
 </html>
