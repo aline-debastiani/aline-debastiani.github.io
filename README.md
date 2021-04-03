@@ -9,7 +9,7 @@ Já finalizei os módulos de Fundamentos de Desenvolvimento Web e Front-End.
 <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/html.svg" alt="html">
 <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/css3.svg" alt="css3">
 <img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/js.svg" alt="js">
-<img src="https://pt-br.reactjs.org/" alt="react">
+<img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/frameworks/react.svg" alt="react">
 
 Meu Linkedin:
 <a href="https://www.linkedin.com/in/aline-debastiani/">
