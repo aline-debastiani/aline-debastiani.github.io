@@ -3,7 +3,7 @@ export const fundamentosPortifolio = [
 		id: 1,
 		title: "Pixel Art",
 		img: "assets/pixels-art.png",
-		link: "https://github.com/aline-debastiani/aline-debastiani.github.io"
+		link: ""
 	},
 	{
 		id: 2,

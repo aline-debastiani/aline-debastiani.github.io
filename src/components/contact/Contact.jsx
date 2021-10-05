@@ -11,7 +11,7 @@ export default function Contact() {
 				<a href="https://www.linkedin.com/in/aline-debastiani" className="linkedin">
 					<LinkedIn />
 				</a>
-				<a href="https://aline-debastiani.github.io/" className="github">
+				<a href="https://portfolio-aline-debastiani.herokuapp.com/" className="github">
 					<GitHub />
 				</a>
 			</div>
