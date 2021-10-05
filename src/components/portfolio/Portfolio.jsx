@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import PortifolioList from "../portifolioList/PortifolioList";
-import "./portifolio.scss";
+import PortfolioList from "../portfolioList/PortfolioList";
+import "./portfolio.scss";
 import {
-	fundamentosPortifolio,
-	frontEndPortifolio,
-	backEndPortifolio,
-	fullStackPortifolio,
+	fundamentosPortfolio,
+	frontEndPortfolio,
+	backEndPortfolio,
+	fullStackPortfolio,
 } from "../../data";
 
-export default function Portifolio() {
+export default function Portfolio() {
 	const [selected, setSelected] = useState("fundamentos");
 	const [data, setData] = useState([]);
 	const list = [
@@ -33,28 +33,28 @@ export default function Portifolio() {
 	useEffect(() => {
 		switch(selected) {
 			case "fundamentos":
-				setData(fundamentosPortifolio);
+				setData(fundamentosPortfolio);
 				break;
 			case "frontEnd":
-				setData(frontEndPortifolio);
+				setData(frontEndPortfolio);
 				break;
 			case "backEnd":
-				setData(backEndPortifolio);
+				setData(backEndPortfolio);
 				break;
 			case "fullStack":
-				setData(fullStackPortifolio);
+				setData(fullStackPortfolio);
 				break;
 			default:
-				setData(fundamentosPortifolio);
+				setData(fundamentosPortfolio);
 		}
 	}, [selected])
 
 	return (
-		<div className="portifolio" id="portifolio">
+		<div className="portfolio" id="portfolio">
 			<h1>Portifolio</h1>
 			<ul>
 				{list.map(item => (
-					<PortifolioList
+					<PortfolioList
 					 title={item.title}
 					 active={selected === item.id}
 					 setSelected={setSelected}

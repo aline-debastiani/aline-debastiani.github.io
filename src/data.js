@@ -1,4 +1,4 @@
-export const fundamentosPortifolio = [
+export const fundamentosPortfolio = [
 	{
 		id: 1,
 		title: "Pixel Art",
@@ -32,7 +32,7 @@ export const fundamentosPortifolio = [
 	},
 ];
 
-export const frontEndPortifolio = [
+export const frontEndPortfolio = [
 	{
 		id: 1,
 		title: "Tryunfo",
@@ -65,7 +65,7 @@ export const frontEndPortifolio = [
 	},
 ];
 
-export const backEndPortifolio = [
+export const backEndPortfolio = [
 	{
 		id: 1,
 		title: "Talker Manager",
@@ -83,22 +83,17 @@ export const backEndPortifolio = [
 	},
 	{
 		id: 4,
-		title: "Stranger Things",
-		img: "",
-	},
-	{
-		id: 5,
 		title: "Blogs Api",
 		img: "",
 	},
 	{
-		id: 6,
+		id: 5,
 		title: "WebChat",
 		img: "",
 	},
 ];
 
-export const fullStackPortifolio = [
+export const fullStackPortfolio = [
 	{
 		id: 1,
 		title: "Delivery App",

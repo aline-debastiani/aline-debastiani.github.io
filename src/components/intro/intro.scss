@@ -25,13 +25,15 @@
 
 			@include mobile {
 				align-items: flex-end;
+				height: 400px;
+				width: 400px;
 			}
 
 			img {
 				height: 90%;
 
 				@include mobile {
-					height: 50%;
+					height: 70%;
 				}
 			}
 		}

@@ -9,10 +9,10 @@ export default function Contact() {
 			</div>
 			<div className="right">
 				<a href="https://www.linkedin.com/in/aline-debastiani" className="linkedin">
-					<LinkedIn />
+					<LinkedIn className="logo" />
 				</a>
 				<a href="https://github.com/aline-debastiani" className="github">
-					<GitHub />
+					<GitHub className="logo" />
 				</a>
 			</div>
 		</div>
