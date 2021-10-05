@@ -1,0 +1,53 @@
+@import "../../global.scss";
+
+.contact {
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 10px;
+
+	@include mobile {
+		padding: 5px 5px;
+	}
+
+	.left {
+		display: flex;
+		margin: 10px;
+
+		h1 {
+			font-size: 15px;
+		}
+
+	}
+
+	.right {
+		display: flex;
+		margin: 10px;
+
+		@include mobile {
+			flex-direction: column;
+			margin: 0;
+		}
+
+		.linkedin {
+			color: inherit;
+			margin-right: 15px;
+			text-decoration: none;
+
+			@include mobile {
+				margin-right: 0;
+			}
+		}
+
+		.github {
+			color: inherit;
+			margin-right: 15px;
+			text-decoration: none;
+
+			@include mobile {
+				margin-right: 0;
+			}
+		}
+	}
+}
