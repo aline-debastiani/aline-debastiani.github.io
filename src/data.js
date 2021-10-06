@@ -3,32 +3,37 @@ export const fundamentosPortfolio = [
 		id: 1,
 		title: "Pixel Art",
 		img: "assets/pixels-art.png",
-		link: ""
+		link: "projetos/pixel-art",
 	},
 	{
 		id: 2,
 		title: "To do List",
 		img: "assets/to-do-list.png",
+		link: "projetos/to-do-list",
 	},
 	{
 		id: 3,
 		title: "Meme Generator",
 		img: "assets/meme-generator.png",
+		link: "projetos/meme-generator",
 	},
 	{
 		id: 4,
 		title: "Color Guess",
 		img: "assets/Color-guess.png",
+		link: "projetos/color-guess",
 	},
 	{
 		id: 5,
 		title: "Facebook",
 		img: "assets/facebook.png",
+		link: "projetos/facebook",
 	},
 	{
 		id: 6,
 		title: "Shopping Cart",
 		img: "assets/Shopping-cart.png",
+		link: "projetos/shopping-cart",
 	},
 ];
 
